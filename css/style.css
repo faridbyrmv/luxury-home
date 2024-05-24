@@ -362,7 +362,13 @@ p {
     justify-content: space-between;
     font-size: 0.9em;
     margin-bottom: 20px;
+    border-right: 1px solid hsla(0, 0%, 0%, 0.2);
 }
+
+.property-cards .card{
+    margin-right:1px solid hsla(0, 0%, 0%, 0.2);
+}
+
 
 .details span {
     display: flex;
@@ -513,6 +519,7 @@ body {
     font-size: 36px;
     margin-bottom: 20px;
     margin-left: 415px;
+    color: black;
 }
 
 .news-cards {
@@ -703,4 +710,21 @@ body {
 .lists{
     margin-top: -100px;
     display: flex;
+}
+
+.container h2{
+    margin-right: 300px;
+}
+
+.container .ccc{
+    margin-left: 550px;
+    color: #e74c3c;
+}
+
+.footer-social a{
+    color: #ffffff;
+}
+
+.footer-column .fimg{
+    margin-top: 1000px;
 }
